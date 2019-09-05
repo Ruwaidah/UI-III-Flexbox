@@ -10,7 +10,7 @@
 .about {
 	padding-bottom: 40px;
 	border-bottom: 3px solid lightgrey;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .aboutServices h1{
@@ -25,23 +25,54 @@
 
 /*  -- center section -- */
 
-.center {
+.center {  
 	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	flex-flow: row wrap;
-	align-content: stretch;
+    flex-wrap:wrap;
+    justify-content: space-between;
 	border-bottom: 2px solid black;
-	padding-bottom: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 35px;
 
 }
 
 .center div {
-	margin: 15px;
-	padding: 15px;
-	line-height: 1;
-	width:46%;
+    margin-bottom: 30px;
+	padding: 20px;
+	line-height: 1.4;
+	flex-basis:46.9%;
 	background: lightgray;
 	border: 1px solid black;
-	border-radius: 1px;
+	border-radius: 2px;
+}
+
+.center button {
+    padding: 7px;
+    width: 140px;
+    border-radius: 3px;
+    border:1px solid black;
+}
+
+/* -- footer sectoin */
+.firstFooter{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+   
+}
+
+.firstFooter div{
+    line-height: 1.4;
+	flex-basis:46%;
+}
+.footerContent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footerContent ul li{
+    line-height: 2;
+}
+
+.firstFooter img { 
+    width:400px;
 }
