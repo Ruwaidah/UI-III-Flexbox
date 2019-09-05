@@ -1,0 +1,47 @@
+/* -- Services page --*/
+
+/* -- about section -- */
+.aboutServices {
+	display: flex;
+	flex-direction: column;
+
+}
+
+.about {
+	padding-bottom: 40px;
+	border-bottom: 3px solid lightgrey;
+	margin-bottom: 20px;
+}
+
+.aboutServices h1{
+	font-size:23px;
+	font-weight: bold;
+}
+
+.services-header-img {
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+/*  -- center section -- */
+
+.center {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-flow: row wrap;
+	align-content: stretch;
+	border-bottom: 2px solid black;
+	padding-bottom: 20px;
+
+}
+
+.center div {
+	margin: 15px;
+	padding: 15px;
+	line-height: 1;
+	width:46%;
+	background: lightgray;
+	border: 1px solid black;
+	border-radius: 1px;
+}
